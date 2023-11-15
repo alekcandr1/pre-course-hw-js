@@ -11,6 +11,6 @@ switch (true) {
         console.log("50 на 50");
         break;
     default:
-        console.log("Что-то еще?");
+        console.log("А что так можно было?");
         break;
 }
