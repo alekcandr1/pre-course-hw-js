@@ -8,5 +8,5 @@ let passportWithAddress = {
 };
 
 let passportWithAddressTwo = { ...passportWithAddress, address: { ...passportWithAddress.address, city: 'Bobryisk' } };
-console.log(passportWithAddress);
-console.log(passportWithAddressTwo);
+console.log(passportWithAddress.address.city);
+console.log(passportWithAddressTwo.address.city);
